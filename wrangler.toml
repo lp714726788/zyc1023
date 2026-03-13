@@ -6,7 +6,7 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "dispatch_db"
-database_id = "YOUR_DATABASE_ID"  # 部署时替换为实际的 D1 数据库 ID
+database_id = "9bba91e7-f331-4493-8508-3a131f208463"  # 部署时替换为实际的 D1 数据库 ID
 
 # R2 存储绑定（预留）
 [[r2_buckets]]
