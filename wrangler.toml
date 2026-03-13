@@ -1,0 +1,18 @@
+name = "dispatch-app"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "dispatch_db"
+database_id = "YOUR_DATABASE_ID"  # 部署时替换为实际的 D1 数据库 ID
+
+# R2 存储绑定（预留）
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "dispatch-storage"
+
+# 环境变量
+[vars]
+ENVIRONMENT = "production"

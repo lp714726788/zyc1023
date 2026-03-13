@@ -1,0 +1,25 @@
+{
+  "name": "dispatch-app",
+  "version": "1.0.0",
+  "description": "派遣单管理系统 - Cloudflare Workers + D1 + R2",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "r2",
+    "dispatch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.0"
+  }
+}
